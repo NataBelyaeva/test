@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center; 
+    display: inline-block;
+  }
+
+.icon {
+    max-width: 2vw; /* Максимальная ширина иконок */
+    height: auto; /* Высота автоматически для сохранения пропорций */
+}
+
+.icon_group_connection {
+  position: absolute;
+  right: 10px;
+}

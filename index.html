@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GM</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="generate-style.css">
+
+    <script src="generate.js" defer></script>
+
+</head>
+<body style="background-color: #F5F5F5;">
+
+    <header>
+        <div class="container-fluid" style="background-color: #9D81BA52">
+            <div class="row">
+                <h1 class="text-center" style="font-size:4vw; font-family:Comic Sans MS; margin-bottom: 0;">Generate memes</h1>
+            </div>
+            <div class="row">
+                <div class="col text-center" style="font-size:2vw; font-family:Comic Sans MS;">
+                    <span>
+                        <img src="./svg/create_icony.svg" class="icon" style="margin-bottom: 3px;">
+                        <a href="#"><b>Создать мем</b></a>                    
+                    </span>
+                    <!-- <span>
+                        <img src="./svg/dice_generate.svg" class="icon">
+                        <a href="#"><b>Сгенерировать мем</b></a>                    
+                    </span> -->
+                    <span>
+                        <img src="./svg/earth_head.svg" class="icon">
+                        <a href="en-index.html"><b>Изменить язык</b></a>                    
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <center>
+                      <div style="background-color: #000; width:29vw; height: 29vw; padding-top: 1vw; margin-top: 10px; text-align: center;">
+                        <img src="./svg/white.jpg" class="img-fluid mx-auto d-block" id="image" style="height: 21vw; width: 25vw;"> 
+                        <span id="text" style="color: #fff; margin-left: auto; margin-right: auto; display: table; color: white; font-size: 1.2vw;"><p></p></span>
+                    </div>  
+                    </center>
+                    
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col" style="text-align: center; padding: 0; margin-top: 1vw;">
+                    <button class="generate mx-auto" id="button"><b>Сгенерировать</b></button>
+                    <button class="generate mx-auto" id="buttonLoad"><b>Скачать</b></button>
+                </div>
+                <div class="col"></div>
+            </div> 
+        </div>
+    </main>    
+     
+    <footer>
+        <div class="container-fluid" style="font-size:1vw; font-family:Comic Sans MS;">
+            <div class="row">
+                <div class="col">
+                    <span>
+                        <a href="account.html">
+                            <img src="./svg/icone_profile.svg" class="icon">
+                            <div style="max-width: 1vw; max-height: auto; margin-right: 4vw;"><b>Личный кабинет</b></div>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="profile.html">
+                            <img src="./svg/other_profiles.svg" class="icon">
+                            <div style="max-width: 1vw; "><b>Другие пользователи</b></div>
+                        </a>
+                    </span>
+                    <span class="icon_group_connection">
+                        <a href="">
+                            <img src="./svg/vk_head.svg" class="icon">
+                            <div><b>ВК</b></div>
+                        </a>
+                        <a href="">
+                            <img src="./svg/tg_head.svg" class="icon">
+                            <div><b>TG</b></div>
+                        </a>
+                        <a href="">
+                            <img src="./svg/sharer.svg" class="icon">
+                            <div><b>Поделись</b></div>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

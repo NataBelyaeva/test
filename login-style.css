@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Comic Neue", cursive;
+
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.navb{
+    padding-top: 10px;
+}
+
+.header-create-mem{
+    padding: 10px;
+}
+
+.text_h{
+    text-decoration: underline;
+    color: #551A8B;
+}
+
+.short-div{
+    text-align: center;
+}
+
+#html-content-holder {
+    margin: auto;
+    margin-top: 9vw;
+    margin-bottom: 1vw;
+}
+
+#exampleFormControlInput1{
+    font-weight: 700;
+    border-color: #000; 
+    border-bottom-width: 3px;
+    width: 28vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: 0%;
+    padding: 0%;
+}
+
+#html-content-holder p {
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.generate{
+    background: #9D81BA52;
+    height: 4vw;
+    width: 30vw;
+    border: none;
+    font-size: 1.3vw;
+    
+}
+
+.generate:hover {
+    background-color:#9D81BA;
+    transition: 0.7s;
+}
+
+#btn-Convert-Html2Image {
+    text-decoration: underline;
+    color: #551A8B;
+    font-size: 20px;
+}
