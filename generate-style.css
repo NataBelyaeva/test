@@ -42,12 +42,13 @@ body {
 
 .generate{
     background: #9D81BA52;
-    height: 4vw;
-    width: 12vw;
+    height: 50px;
+    width: 160px;
     border: none;
-    font-size: 1.4vw;
+    font-size: 20px;
     padding: 0;
 }
+
 
 .generate:hover {
     background-color:#9D81BA;
