@@ -3,14 +3,12 @@ a {
     color: black;
     text-align: center; 
     display: inline-block;
-  }
-
-
-.icon {
-    width: 25px; /* Максимальная ширина иконок */
-    height: 25px; /* Высота автоматически для сохранения пропорций */
 }
 
+.icon {
+    width: 25px;
+    height: 25px;
+}
 
 .icon_group_connection {
   position: absolute;
