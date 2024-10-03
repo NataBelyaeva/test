@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url("comic-sans-ms/comici.ttf");
+}
+
 body {
     background-color: #F5F5F5;
-    font-family:'Comic Sans MS';
+    font-family: 'Comic Sans MS';
 }
 
 .generate{
