@@ -1,42 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
-* {
-    font-family: "Comic Neue", cursive;
-
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url("./font/Comic Sans MS.ttf");
 }
 
 body {
     background-color: #F5F5F5;
+    font-family: 'Comic Sans MS';
 }
 
-.navb{
-    padding-top: 10px;
+a {
+    text-decoration: none;
+    color: black;
+    text-align: center; 
+    display: inline-block;
 }
 
-.header-create-mem{
-    padding: 10px;
+.icon {
+    width: 25px;
+    height: 25px;
 }
 
-.text_h{
-    text-decoration: underline;
-    color: #551A8B;
+.icon_group_connection {
+  position: absolute;
+  right: 10px;
 }
 
-.short-div{
-    text-align: center;
-}
 
 #html-content-holder {
     margin: auto;
-    margin-top: 9vw;
-    margin-bottom: 1vw;
+    margin-top: 50px;
 }
 
 #exampleFormControlInput1{
     font-weight: 700;
     border-color: #000; 
     border-bottom-width: 3px;
-    width: 28vw;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     border-top-width: 0;
@@ -46,30 +45,17 @@ body {
     padding: 0%;
 }
 
-#html-content-holder p {
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-}
-
 .generate{
     background: #9D81BA52;
-    height: 4vw;
-    width: 30vw;
+    height: 50px;
+    width: 350px;
     border: none;
-    font-size: 1.3vw;
-    
+    font-size: 20px;
+    padding: 0;
+    margin-top: 20px;
 }
 
 .generate:hover {
     background-color:#9D81BA;
     transition: 0.7s;
-}
-
-#btn-Convert-Html2Image {
-    text-decoration: underline;
-    color: #551A8B;
-    font-size: 20px;
 }
