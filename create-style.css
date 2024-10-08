@@ -14,62 +14,28 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;       
 }
 
-.navb{
-    padding-top: 10px;
+@media (max-width: 768px)  {
+    .pattern{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 250px;
+        max-width: 210px; 
+         
+    }
 }
 
-.header-create-mem{
-    padding: 10px;
+@media (max-width: 768px)  {
+    #image{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 150px;
+        max-width: 170px;
+    }
 }
 
-.text_h{
-    text-decoration: underline;
-    color: #551A8B;
-}
-
-.short-div{
-    text-align: center;
-}
-
-.loadMem-memText {
-    margin: 10px;
-    font-size: 16px;
-    text-align: center;
-}
-
-#html-content-holder {
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#html-content-holder p {
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-}
 
 /* кнопки */
 
-.loadMem-btn {
-    background: #9D81BA52;
-    height: 50px;
-    width: 160px;
-    border: none;
-    cursor: pointer;  
-    position: relative;
-    bottom: 3px;
-}
-
-.loadMem-btn input{
-    display: none;
-}
-
-.loadImg{
-    text-align: center;
-}
 
 .generate{
     background: #9D81BA52;
@@ -90,17 +56,9 @@ body::-webkit-scrollbar-thumb {
     margin-left: 15px;
 }
 
-.loadMem-btn:hover {
+.generate:hover {
     background-color:#9D81BA;
     transition: 0.7s;
-}
-
-
-
-#btn-Convert-Html2Image {
-    text-decoration: underline;
-    color: #551A8B;
-    font-size: 20px;
 }
 
 .download:hover {
@@ -108,23 +66,8 @@ body::-webkit-scrollbar-thumb {
     transition: 0.7s;
 }
 
-#buttonLoad:hover {
-    background-color:#9D81BA;
-    transition: 0.7s;
-}
-
 /* картинки */
 
-/* .choose-img {
-    background-color: #D9D9D9;
-    float: left;
-    position: relative;
-    height: 522px;
-    width: 30%;
-    bottom: 500px;
-    overflow: auto;
-    overflow-x:hidden;
-} */
 
 .akk{
     overflow: auto;
@@ -144,38 +87,6 @@ body::-webkit-scrollbar-thumb {
     .akk{
         overflow: auto;
         overflow-x:hidden;
-        max-height: 400px;
-        
-    }
-}
-
-@media (max-width: 576px)  {
-    .akk{
-        overflow: auto;
-        overflow-x:hidden;
-        max-height: 100px;
-        
-    }
-}
-
-.akk1{
-    overflow: auto;
-    overflow-x:hidden;
-}
-
-@media (max-width: 1400px)  {
-    .akk1{
-        overflow: auto;
-        overflow-x:hidden;
-        max-height: 460px;
-        
-    }
-}
-
-@media (max-width: 768px)  {
-    .akk1{
-        overflow: auto;
-        overflow-x:hidden;
         max-height: 100px;
         
     }
@@ -190,14 +101,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;       
 }
 
-.akk1::-webkit-scrollbar{
-    width: 5px;
-}
-
-.akk1::-webkit-scrollbar-thumb {
-    background-color: #9D81BA;    
-    border-radius: 20px;       
-}
 
 .test-mem-img{
     margin: auto;
