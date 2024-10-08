@@ -77,19 +77,19 @@ body::-webkit-scrollbar-thumb {
 
 .generate{
     background: #9D81BA52;
-    height: 4vw;
-    width: 17vw;
+    height: 50px;
+    width: 140px;
     border: none;
-    font-size: 1.4vw;
+    font-size: 16px;
     padding: 0;
 }
 
 .download{
     background: #9D81BA52;
-    height: 4vw;
-    width: 12vw;
+    height: 50px;
+    width: 140px;
     border: none;
-    font-size: 1.4vw;
+    font-size: 16px;
     
     margin-left: 15px;
 }
@@ -135,19 +135,73 @@ body::-webkit-scrollbar-thumb {
     overflow-x:hidden;
 }
 
+@media (max-width: 1400px)  {
+    .akk{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 460px;
+        
+    }
+}
+
+@media (max-width: 768px)  {
+    .akk{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 400px;
+        
+    }
+}
+
 @media (max-width: 576px)  {
     .akk{
         overflow: auto;
-        overflow-y:hidden;
+        overflow-x:hidden;
         max-height: 100px;
+        
     }
 }
+
+.akk1{
+    overflow: auto;
+    overflow-x:hidden;
+}
+
+@media (max-width: 1400px)  {
+    .akk1{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 460px;
+        
+    }
+}
+
+@media (max-width: 768px)  {
+    .akk1{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 100px;
+        
+    }
+}
+
+
+
 
 .akk::-webkit-scrollbar{
     width: 5px;
 }
 
 .akk::-webkit-scrollbar-thumb {
+    background-color: #9D81BA;    
+    border-radius: 20px;       
+}
+
+.akk1::-webkit-scrollbar{
+    width: 5px;
+}
+
+.akk1::-webkit-scrollbar-thumb {
     background-color: #9D81BA;    
     border-radius: 20px;       
 }
