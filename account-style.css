@@ -42,19 +42,19 @@ body {
 
 .generate{
     background: #9D81BA52;
-    height: 4vw;
-    width: 17vw;
+    height: 50px;
+    width: 200px;
     border: none;
-    font-size: 1.4vw;
+    font-size: 16px;
     padding: 0;
 }
 
 .download{
     background: #9D81BA52;
-    height: 4vw;
-    width: 12vw;
+    height: 50px;
+    width: 100px;
     border: none;
-    font-size: 1.4vw;
+    font-size: 16px;
     
     margin-left: 15px;
 }
@@ -79,8 +79,27 @@ body {
     width: 5px;
 }
 
+
 .akk{
     overflow: auto;
-    max-height: 100vh; 
-  overflow-y: auto;
+    overflow-x:hidden;
 }
+
+@media (max-width: 1400px)  {
+    .akk{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 460px;
+        
+    }
+}
+
+@media (max-width: 768px)  {
+    .akk{
+        overflow: auto;
+        overflow-x:hidden;
+        max-height: 100px;
+        
+    }
+}
+
