@@ -134,8 +134,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #inp_text{
-    height: 60px;
-    width: 390px;
+    height: 90px;
+    width: 350px;
     position: relative;
     bottom: 15px;
     background-color: black;
