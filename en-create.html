@@ -4,188 +4,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GM</title>
-
     <link href="bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <link rel="stylesheet" href="registration.css">
     <link rel="stylesheet" href="create-style.css">
     <script src="create.js" defer></script>
-    <script src="create-download.js" defer></script>
-    
+
+
 </head>
-<body>
-  <header>
-    
-    <nav class="navb" style="background-color: #9D81BA52; height: 76px;">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 " style="padding-left: 50px; padding-top: 2px;">
-            <img src="./svg/smile_head_icon.svg" alt="" height="50px" width="50px" >
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3" style="padding-top: 8px;">
-            <span style="font-size: 30px;"><b>Generate memes</b></span>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header-create-mem" style="padding-top: 12px;">
-            <img src="./svg/dice_generate.svg" height="28px" width="28px">
-            <a href="en-index.html" class="text_h"><b>Generate mem</b></a>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 header-create-mem" >
-            <img src="./svg/earth_head.svg" height="30px" width="30px" class="earth_head">
-            <a href="create.html" class="text_h"><b>Change Language</b></a>
-          </div>
-          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding:0px">
-            <div class="short-div" >
-              <a target="_blank" href="https://vk.me/join/kiXRoO6dR1l61joQk53Gk75qD2aZxXg_X0M="><img src="./svg/vk_head.svg" alt="" height="30px" width="30px" class="vk_head"></a>
-              <a href="https://t.me/memes_for_everybody" target="_blank"><img src="./svg/tg_head.svg" alt="" height="27px" width="27px" class="tg_head"></a>
+<body style="background-color: #F5F5F5;">
+
+    <header>
+        <div class="container-fluid" style="background-color: #9D81BA52">
+            <div class="row">
+                <h1 class="text-center" style="font-size:43px; margin-bottom: 0;">Generate memes</h1>
             </div>
-            <div class="short-div"><span id="connection" style="font-size: 12px;"><b>Connection</b></span></div>
-          </div>
-          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding:0px">
-            <div class="short-div" >
-              <!-- <a href=""><img src="/svg/sharer.svg" alt="" height="24px" width="24px" class="sharer"></a> -->
-              <script type="text/javascript">
-                document.write(VK.Share.button(false, {type: "custom", text: "<img src='./svg/sharer.svg' width='24px' height='24px' alt='share icon' />"}));
-              </script>
-            </div>
-            <div class="short-div" style="padding: 5px;"><span id="share" style="font-size: 12px;"><b>Share</b></span></div>
-          </div>
+            <div class="row">
+                <div class="col text-center" >
           
+                    <span>
+                        <img src="./svg/dice_generate.svg" class="icon">
+                        <a href="index.html"><b>Generate mem</b></a>                    
+                    </span>
+                    <span>
+                        <img src="./svg/earth_head.svg" class="icon">
+                        <a href="create.html"><b>Change Language</b></a>                    
+                    </span>
+                </div>
+            </div>
         </div>
-      </div>
-      
-    </nav>
-  </header>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="akk col-md-3 col-12" style="padding: 0%;">
+                    <div class="akk" style="background-color: #D9D9D9; text-align: center;">
+                    
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/1test-mem-img-en.jpg')"><img src="./МЕМ/1test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/41test-mem-img.jpg')"><img src="./МЕМ/41test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/42test-mem-img.jpg')"><img src="./МЕМ/42test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/4test-mem-img.jpg')"><img src="./МЕМ/4test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/43test-mem-img.jpg')"><img src="./МЕМ/43test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/44test-mem-img.jpg')"><img src="./МЕМ/44test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/46test-mem-img-en.jpg')"><img src="./МЕМ/46test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/11test-mem-img.jpg')"><img src="./МЕМ/11test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/47test-mem-img.jpg')"><img src="./МЕМ/47test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/48test-mem-img.jpg')"><img src="./МЕМ/48test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/50test-mem-img.jpg')"><img src="./МЕМ/50test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/15test-mem-img.jpg')"><img src="./МЕМ/15test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/16test-mem-img.jpg')"><img src="./МЕМ/16test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/51test-mem-img.jpg')"><img src="./МЕМ/51test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/52test-mem-img.jpg')"><img src="./МЕМ/52test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/53test-mem-img.jpg')"><img src="./МЕМ/53test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/54test-mem-img.jpg')"><img src="./МЕМ/54test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/21test-mem-img-en.jpg')"><img src="./МЕМ/21test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/55test-mem-img-en.jpg')"><img src="./МЕМ/55test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/23test-mem-img.jpg')"><img src="./МЕМ/23test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/24test-mem-img.jpg')"><img src="./МЕМ/24test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                  
+                  
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/25test-mem-img.jpg')"><img src="./МЕМ/25test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/56test-mem-img.jpg')"><img src="./МЕМ/56test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/57test-mem-img.jpg')"><img src="./МЕМ/57test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                    
+                    
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/28test-mem-img.jpg')"><img src="./МЕМ/28test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/29test-mem-img.jpg')"><img src="./МЕМ/29test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/30test-mem-img.jpg')"><img src="./МЕМ/30test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                    
+                    
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/31test-mem-img.jpg')"><img src="./МЕМ/31test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/32test-mem-img-en.jpg')"><img src="./МЕМ/32test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/33test-mem-img.jpg')"><img src="./МЕМ/33test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                    
+                    
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/49test-mem-img.jpg')"><img src="./МЕМ/49test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/35test-mem-img.jpg')"><img src="./МЕМ/35test-mem-img.jpg" alt="" height="80px" width="80px"></button>
+                      <button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/39test-mem-img-en.jpg')"><img src="./МЕМ/39test-mem-img-en.jpg" alt="" height="80px" width="80px"></button>
+                    </div>
+                </div>
 
-  <main>
-    
-    <div id="html-content-holder" style="background-color: #000; width: 400px; height: 407px; padding-top: 25px;">
-      <img src="./svg/white.jpg" class="image-edit-text mx-auto d-block" id="image" height="300px" width="340px">  
-      <p><span class="span-text-generate mx-auto" id="text" style="color: #fff;"></span></p>
-      <textarea id="inp_text" style="display: none;" class="mx-auto"></textarea>
-    </div>   
-    
-    <div class="bth" style="text-align: center;">
-      <label class="loadMem-btn">
-        <input type="file" name="loadMem" id="loadMem" accept=".jpeg, .png, .jpg">
-        <p class="loadMem-memText"><b>Load photo</b></p>
-      </label>
-      <button class="generate mx-auto" id="buttonLoad"><b>Preview</b></button>
-    </div>  
+                <div class="col-md-6 aligncenter" style="text-align: center; padding: auto;">
+                    <center>
+                        <div class="pattern" style="background-color: #000; height: 370px; width:350px; padding-top: 25px; margin-top: 10px; text-align: center;">
+                            <img src="./svg/white.jpg" class="img-fluid mx-auto d-block" id="image" style="height: 250px; width: 290px;"> 
+                            <span id="text" style="color: #fff; margin-left: auto; margin-right: auto; display: table; color: white; font-size: 16px;"><p></p></span>
+                        </div>  
+                        <div style="margin-top: 10px; margin-bottom: 10px;">
+                            <button class="generate mx-auto" id="button"><b>Загрузить фото</b></button>
+                            <button class="download mx-auto" id="buttonLoad"><b>Скачать</b></button>     
+                        </div>
+                    </center>
 
-    <div class="choose-img">
-        <div class="container" style="padding: 0;">
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/1test-mem-img-en.jpg')"><img src="./МЕМ/1test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/41test-mem-img.jpg')"><img src="./МЕМ/41test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/42test-mem-img.jpg')"><img src="./МЕМ/42test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
+                </div>
+
+                <div class="col-md-3" style="padding: 0%;">
+                    <div class="akk" style="background-color: #D9D9D9; text-align: center;">
+
+                        <button class="text1" id="chooseText" type="submit" onclick="chpok()" >Свой текст</button>
+                        <!-- <input type="button" id="myButton1" onclick="Click(); chpok()" value="Свой текст"> -->
+        
+                        <button class="text2" id="chooseText" onclick="getText('Nobody: <br>Absolutely nobody: <br>Me at random:')"><b>Nobody: Absolutely nobody: Me at random:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Me: Why doesn`t anyone meet me? <br>I`m also at all the events:')"><b>Me: Why doesn't anyone meet me? I'm also at all the events:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When I got up to the first couple:')"><b>When I got up to the first couple:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When mom asks what do <br>you eat in the dorm?')"><b>When mom asks what do you eat in the dorm?</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When I restarted the code 15 times <br>and it still didn`t work:')"><b>When I restarted the code 15 times and it still didn't work:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Men say we don`t get depressed. <br>And then they create it:')"><b>Men say we don't get depressed. And then they create it:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Me: Mom, let`s get a pet <br>Mom: We have a pet at home <br>A pet at home:')"><b>Me: Mom, let's get a pet Mom: We have a pet at home A pet at home:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('The feeling when you accidentally like someone <br>else`s photo on Instagram from 2012')"><b>The feeling when you accidentally like someone else's photo on Instagram from 2012</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you decided to try a new recipe, <br>but instead of a finished dish, <br>you got a culinary disaster')"><b>When you decided to try a new recipe, but instead of a finished dish, you got a culinary disaster</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When he did not read the terms of <br>reference and the final result did not <br>coincide with the customer`s expectations')"><b>When he did not read the terms of reference and the final result did not coincide with the customer's expectations</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Someone: How are you doing? <br>I`m with a lot of debts and unwillingness to study:')"><b>Someone: How are you doing? I'm with a lot of debts and unwillingness to study:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Awaken your inner beast! <br> My inner beast:')"><b>Awaken your inner beast! My inner beast:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('Teens: schools don`t let us get enough sleep! <br>Also teenagers at 3 a.m:')"><b>Teens: schools don't let us get enough sleep! Also teenagers at 3 a.m:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('My cat every time <br>I open the refrigerator:')"><b>My cat every time I open the refrigerator:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you`ve paid your rent, <br>and now you have a place <br>to starve:')"><b>When you've paid your rent, and now you have a place to starve:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('My peers are: getting married, <br>building a career, having kids, <br>building a house <br>I am:')"><b>My peers are: getting married, building a career, having kids, building a house I am:</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When the report is not according to the STC')"><b>When the report is not according to the STC</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When the instructor decided to see <br> how our coursework was progressing')"><b>When the instructor decided to see how our coursework was progressing</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When I saw the couples in IKIT <br>on the fifth floor')"><b>When I saw the couples in IKIT on the fifth floor</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When the tasks at the end of the sprint <br>didn`t burn out')"><b>When the tasks at the end of the sprint didn't burn out</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you`re on a diet, but you see pizza on the table')"><b>When you're on a diet, but you see pizza on the table</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When your girlfriend says <br>that she`ll do all the work on a project, <br>and then disappears')"><b>When your girlfriend says that she'll do all the work on a project, and then disappears</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you think you`ve done all the work for the day, <br>and then you remember the term paper')"><b>When you think you've done all the work for the day, and then you remember the term paper</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you wake up in the morning and realize <br>you forgot to set your alarm clock')"><b>When you wake up in the morning and realize you forgot to set your alarm clock</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you wake up thinking, <br>“Today`s gonna be different,” <br>and you end up lying on the couch all day')"><b>When you wake up thinking, “Today's gonna be different,” and you end up lying on the couch all day</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you`re done watching your favorite show <br>and you don`t know what to watch next')"><b>When you're done watching your favorite show and you don't know what to watch next</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you decide to see a new movie, <br>and it turns out to be a total disappointment')"><b>When you decide to see a new movie, and it turns out to be a total disappointment</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you changed your account password, <br>but forgot where you put it')"><b>When you changed your account password, but forgot where you put it</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you decide to start a new hobby, but realize <br>that there is neither time nor energy')"><b>When you decide to start a new hobby, but realize that there is neither time nor energy</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you`re trying to humor a friend after a bad day, <br>but the words don`t come to mind')"><b>When you're trying to humor a friend after a bad day, but the words don't come to mind</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you think you still have a whole day before <br>deadline and then suddenly realize, deadline was yesterday')"><b>When you think you still have a whole day before deadline and then suddenly realize, deadline was yesterday</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you find out in the morning that you forgot to plug <br>the phone charger into the outlet')"><b>When you find out in the morning that you forgot to plug the phone charger into the outlet</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you`re trying to take selfies, <br>but every photo turns out to be a failure')"><b>When you're trying to take selfies, but every photo turns out to be a failure</b></button>
+                        <button class="text2" id="chooseText" onclick="getText('When you open a long-awaited email and it turns out <br>that it`s just spam')"><b>When you open a long-awaited email and it turns out that it's just spam</b></button>
+
+                    </div>
+                </div>
+                
             </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/4test-mem-img.jpg')"><img src="./МЕМ/4test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/43test-mem-img.jpg')"><img src="./МЕМ/43test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/44test-mem-img.jpg')"><img src="./МЕМ/44test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/7test-mem-img.jpg')"><img src="./МЕМ/7test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/8test-mem-img.jpg')"><img src="./МЕМ/8test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/9test-mem-img.jpg')"><img src="./МЕМ/9test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/46test-mem-img-en.jpg')"><img src="./МЕМ/46test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/11test-mem-img.jpg')"><img src="./МЕМ/11test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/47test-mem-img.jpg')"><img src="./МЕМ/47test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/48test-mem-img.jpg')"><img src="./МЕМ/48test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/50test-mem-img.jpg')"><img src="./МЕМ/50test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/15test-mem-img.jpg')"><img src="./МЕМ/15test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/16test-mem-img.jpg')"><img src="./МЕМ/16test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/51test-mem-img.jpg')"><img src="./МЕМ/51test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/52test-mem-img.jpg')"><img src="./МЕМ/52test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/53test-mem-img.jpg')"><img src="./МЕМ/53test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/54test-mem-img.jpg')"><img src="./МЕМ/54test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/21test-mem-img-en.jpg')"><img src="./МЕМ/21test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/55test-mem-img-en.jpg')"><img src="./МЕМ/55test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/23test-mem-img.jpg')"><img src="./МЕМ/23test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-                <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/24test-mem-img.jpg')"><img src="./МЕМ/24test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/25test-mem-img.jpg')"><img src="./МЕМ/25test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/56test-mem-img.jpg')"><img src="./МЕМ/56test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/57test-mem-img.jpg')"><img src="./МЕМ/57test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/28test-mem-img.jpg')"><img src="./МЕМ/28test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/29test-mem-img.jpg')"><img src="./МЕМ/29test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/30test-mem-img.jpg')"><img src="./МЕМ/30test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/31test-mem-img.jpg')"><img src="./МЕМ/31test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/32test-mem-img-en.jpg')"><img src="./МЕМ/32test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/33test-mem-img.jpg')"><img src="./МЕМ/33test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            <div class="row">
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/49test-mem-img.jpg')"><img src="./МЕМ/49test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/35test-mem-img.jpg')"><img src="./МЕМ/35test-mem-img.jpg" alt="" height="100px" width="100px"></button></div>
-              <div class="col-4"><button class="test-mem-img" id="img-button" onclick="getImg('./МЕМ/39test-mem-img-en.jpg')"><img src="./МЕМ/39test-mem-img-en.jpg" alt="" height="100px" width="100px"></button></div>
-            </div>
-            
         </div>
-    </div>
+        
+        
+        
+    </main>    
+     
+    <footer>
+        <div class="container-fluid" style="font-size:14px; margin-top: 5px;">
+            <div class="row">
+                <div class="col">
+                    <span>
+                        <a href="">
+                            <img src="./svg/icone_profile.svg" class="icon">
+                            <div style="max-width: 15px; max-height: auto; margin-right: 50px;"><b>personal profile</b></div>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="en-profile.html">
+                            <img src="./svg/other_profiles.svg" class="icon">
+                            <div style="max-width: 15px;"><b>Other users</b></div>
+                        </a>
+                    </span>
+                    <span class="icon_group_connection">
+                        <a href="">
+                            <img src="./svg/vk_head.svg" class="icon">
+                            <div><b>VK</b></div>
+                        </a>
+                        <a href="">
+                            <img src="./svg/tg_head.svg" class="icon">
+                            <div><b>TG</b></div>
+                        </a>
+                        <a href="">
+                            <img src="./svg/sharer.svg" class="icon">
+                            <div><b>Share</b></div>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <div class="choose-text">
-      <button class="text1" id="chooseText" type="submit" onclick="chpok()"><b>Your text</b></button>
-
-      <button class="text2" id="chooseText" onclick="getText('Nobody: <br>Absolutely nobody: <br>Me at random:')"><b>Nobody: Absolutely nobody: Me at random:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Me: Why doesn`t anyone meet me? <br>I`m also at all the events:')"><b>Me: Why doesn't anyone meet me? I'm also at all the events:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When I got up to the first couple:')"><b>When I got up to the first couple:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When mom asks what do <br>you eat in the dorm?')"><b>When mom asks what do you eat in the dorm?</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When I restarted the code 15 times <br>and it still didn`t work:')"><b>When I restarted the code 15 times and it still didn't work:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Men say we don`t get depressed. <br>And then they create it:')"><b>Men say we don't get depressed. And then they create it:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Me: Mom, let`s get a pet <br>Mom: We have a pet at home <br>A pet at home:')"><b>Me: Mom, let's get a pet Mom: We have a pet at home A pet at home:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('The feeling when you accidentally like someone <br>else`s photo on Instagram from 2012')"><b>The feeling when you accidentally like someone else's photo on Instagram from 2012</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you decided to try a new recipe, <br>but instead of a finished dish, <br>you got a culinary disaster')"><b>When you decided to try a new recipe, but instead of a finished dish, you got a culinary disaster</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When he did not read the terms of <br>reference and the final result did not <br>coincide with the customer`s expectations')"><b>When he did not read the terms of reference and the final result did not coincide with the customer's expectations</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Someone: How are you doing? <br>I`m with a lot of debts and unwillingness to study:')"><b>Someone: How are you doing? I'm with a lot of debts and unwillingness to study:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Awaken your inner beast! <br> My inner beast:')"><b>Awaken your inner beast! My inner beast:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('Teens: schools don`t let us get enough sleep! <br>Also teenagers at 3 a.m:')"><b>Teens: schools don't let us get enough sleep! Also teenagers at 3 a.m:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('My cat every time <br>I open the refrigerator:')"><b>My cat every time I open the refrigerator:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you`ve paid your rent, <br>and now you have a place <br>to starve:')"><b>When you've paid your rent, and now you have a place to starve:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('My peers are: getting married, <br>building a career, having kids, <br>building a house <br>I am:')"><b>My peers are: getting married, building a career, having kids, building a house I am:</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When the report is not according to the STC')"><b>When the report is not according to the STC</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When the instructor decided to see <br> how our coursework was progressing')"><b>When the instructor decided to see how our coursework was progressing</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When I saw the couples in IKIT <br>on the fifth floor')"><b>When I saw the couples in IKIT on the fifth floor</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When the tasks at the end of the sprint <br>didn`t burn out')"><b>When the tasks at the end of the sprint didn't burn out</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you`re on a diet, but you see pizza on the table')"><b>When you're on a diet, but you see pizza on the table</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When your girlfriend says <br>that she`ll do all the work on a project, <br>and then disappears')"><b>When your girlfriend says that she'll do all the work on a project, and then disappears</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you think you`ve done all the work for the day, <br>and then you remember the term paper')"><b>When you think you've done all the work for the day, and then you remember the term paper</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you wake up in the morning and realize <br>you forgot to set your alarm clock')"><b>When you wake up in the morning and realize you forgot to set your alarm clock</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you wake up thinking, <br>“Today`s gonna be different,” <br>and you end up lying on the couch all day')"><b>When you wake up thinking, “Today's gonna be different,” and you end up lying on the couch all day</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you`re done watching your favorite show <br>and you don`t know what to watch next')"><b>When you're done watching your favorite show and you don't know what to watch next</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you decide to see a new movie, <br>and it turns out to be a total disappointment')"><b>When you decide to see a new movie, and it turns out to be a total disappointment</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you changed your account password, <br>but forgot where you put it')"><b>When you changed your account password, but forgot where you put it</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you decide to start a new hobby, but realize <br>that there is neither time nor energy')"><b>When you decide to start a new hobby, but realize that there is neither time nor energy</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you`re trying to humor a friend after a bad day, <br>but the words don`t come to mind')"><b>When you're trying to humor a friend after a bad day, but the words don't come to mind</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you think you still have a whole day before <br>deadline and then suddenly realize, deadline was yesterday')"><b>When you think you still have a whole day before deadline and then suddenly realize, deadline was yesterday</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you find out in the morning that you forgot to plug <br>the phone charger into the outlet')"><b>When you find out in the morning that you forgot to plug the phone charger into the outlet</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you`re trying to take selfies, <br>but every photo turns out to be a failure')"><b>When you're trying to take selfies, but every photo turns out to be a failure</b></button>
-      <button class="text2" id="chooseText" onclick="getText('When you open a long-awaited email and it turns out <br>that it`s just spam')"><b>When you open a long-awaited email and it turns out that it's just spam</b></button>
-    </div>
-
-    <div id="previewImage" style="text-align: center; margin-top: 20px;"></div> 
-
-    <div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-      <a id="btn-Convert-Html2Image" href="#">Download</a>
-    </div>  
-
-  </main>
-    
 </body>
 </html>
